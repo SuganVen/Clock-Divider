@@ -1,4 +1,4 @@
 +incdir+..
 ../src/clkDivider.sv
 ../src/clkDividerEven.sv
-../sim/clkDividerTB.sv
+../tb/clkDividerTB.sv

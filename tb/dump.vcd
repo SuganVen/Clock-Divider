@@ -1,0 +1,192 @@
+$date
+	Mon Sep 04 21:50:26 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module clkDividerEven $end
+$var wire 1 ! iclk $end
+$var wire 1 " rst $end
+$var parameter 32 # counterWidth $end
+$var parameter 32 $ divisor $end
+$var reg 1 % oclk $end
+$var reg 1 & counter $end
+$upscope $end
+$scope module clkDividerTB $end
+$var wire 1 ' oclk $end
+$var reg 1 ( clk $end
+$var reg 1 ) rst $end
+$scope module dut $end
+$var wire 1 ( iclk $end
+$var wire 1 ) rst $end
+$var parameter 32 * counterWidth $end
+$var parameter 32 + divisor $end
+$var parameter 32 , twiceDivisor $end
+$var reg 1 ' oclk $end
+$var reg 3 - counter [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b110 ,
+b11 +
+b11 *
+b10 $
+b1 #
+$end
+#0
+$dumpvars
+b0 -
+1)
+0(
+0'
+0&
+x%
+z"
+z!
+$end
+#10
+1(
+#20
+0(
+#30
+b1 -
+1(
+0)
+#40
+b10 -
+0(
+#50
+b11 -
+1(
+#60
+1'
+b100 -
+0(
+#70
+b101 -
+1(
+#80
+b0 -
+0(
+#90
+0'
+b1 -
+1(
+#100
+b10 -
+0(
+#110
+b11 -
+1(
+#120
+1'
+b100 -
+0(
+#130
+b101 -
+1(
+#140
+b0 -
+0(
+#150
+0'
+b1 -
+1(
+#160
+b10 -
+0(
+#170
+b11 -
+1(
+#180
+1'
+b100 -
+0(
+#190
+b101 -
+1(
+#200
+b0 -
+0(
+#210
+0'
+b1 -
+1(
+#220
+b10 -
+0(
+#230
+b11 -
+1(
+#240
+1'
+b100 -
+0(
+#250
+b101 -
+1(
+#260
+b0 -
+0(
+#270
+0'
+b1 -
+1(
+#280
+b10 -
+0(
+#290
+b11 -
+1(
+#300
+1'
+b100 -
+0(
+#310
+b101 -
+1(
+#320
+b0 -
+0(
+#330
+0'
+b1 -
+1(
+#340
+b10 -
+0(
+#350
+b11 -
+1(
+#360
+1'
+b100 -
+0(
+#370
+b101 -
+1(
+#380
+b0 -
+0(
+#390
+0'
+b1 -
+1(
+#400
+b10 -
+0(
+#410
+b11 -
+1(
+#420
+1'
+b100 -
+0(
+#430
+b101 -
+1(
